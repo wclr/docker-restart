@@ -1,0 +1,30 @@
+{
+  "name": "docker-restart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "scripts": {
+    "prepublish": "yarn tsc"
+  },
+  "files": [
+    "out/index.js"
+  ],
+  "bin": {
+    "docker-restart-log-checker": "out/index.js"
+  },
+  "dependencies": {
+    "event-stream": "^4.0.1",
+    "node-notifier": "^5.4.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.42",
+    "typescript": "^3.5.3",
+    "@types/node-notifier": "^5.4.0",
+    "@types/event-stream": "^3.3.34",
+    "@types/node": "^12.7.2"
+  }
+}
