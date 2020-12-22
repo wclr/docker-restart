@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "event-stream": "^4.0.1",
-    "node-notifier": "^5.4.3"
+    "node-notifier": "^8.0.1"
   },
   "devDependencies": {
     "ts-node-dev": "^1.0.0-pre.42",
